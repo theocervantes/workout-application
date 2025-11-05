@@ -264,8 +264,20 @@ function nextBlock() {
     
     // Move to next block
     currentBlockIndex++;
-    resetTimer();
+    
+    // Keep timer running, just reset the display for new block
+    elapsedTime = 0;
+    if (isRunning) {
+        startTime = Date.now();
+    }
+    
     renderCurrentBlock();
+    
+    // Update button states if timer was running
+    if (isRunning) {
+        document.getElementById('start-btn').classList.add('hidden');
+        document.getElementById('stop-btn').classList.remove('hidden');
+    }
 }
 
 function finishWorkout() {
