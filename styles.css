@@ -302,3 +302,154 @@ svg {
     display: inline-block;
     vertical-align: middle;
 }
+
+/* ===== TIMER ===== */
+.timer-container {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.timer-display {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.timer-label {
+    font-size: 0.75rem;
+    color: #737373;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+.timer-time {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #dc2626;
+    font-variant-numeric: tabular-nums;
+}
+
+.timer-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.timer-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    border: 1px solid #1f1f1f;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+}
+
+.timer-btn:hover {
+    border-color: #404040;
+}
+
+.timer-start {
+    background-color: #166534;
+    border-color: #166534;
+    color: #86efac;
+}
+
+.timer-start:hover {
+    background-color: #14532d;
+    border-color: #14532d;
+}
+
+.timer-stop {
+    background-color: #7c2d12;
+    border-color: #7c2d12;
+    color: #fdba74;
+}
+
+.timer-stop:hover {
+    background-color: #6b2710;
+    border-color: #6b2710;
+}
+
+.timer-reset {
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+    color: #a3a3a3;
+}
+
+.timer-reset:hover {
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+}
+
+/* ===== BLOCK NAVIGATION ===== */
+.block-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.block-navigation .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ===== TIMES SUMMARY ===== */
+.times-summary {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.summary-title {
+    font-size: 0.75rem;
+    color: #737373;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+/* ===== WORKOUT SUMMARY ===== */
+.workout-summary {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 2rem;
+    text-align: center;
+}
+
+.summary-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.summary-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #86efac;
+}
+
+.summary-stat {
+    margin-bottom: 2rem;
+}
+
+.summary-stat .stat-value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #dc2626;
+    margin-bottom: 0.5rem;
+}
+
+.summary-stat .stat-label {
+    font-size: 0.875rem;
+    color: #737373;
+    letter-spacing: 0.1em;
+}
