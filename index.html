@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stallone Bridge Program</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="title-row">
+                <svg class="target-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" stroke-width="2"></circle>
+                    <circle cx="12" cy="12" r="6" stroke-width="2"></circle>
+                    <circle cx="12" cy="12" r="2" stroke-width="2"></circle>
+                </svg>
+                <h1 id="program-title">STALLONE BRIDGE</h1>
+            </div>
+            <p class="subtitle" id="program-subtitle">6-WEEK MULTI-TOOL PREPARATION</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="selection-view">
+            <div class="week-selector">
+                <div class="selector-header">
+                    <div class="selector-title">
+                        <svg width="20" height="20" fill="none" stroke="#737373" viewBox="0 0 24 24">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke-width="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6" stroke-width="2"></line>
+                            <line x1="8" y1="2" x2="8" y2="6" stroke-width="2"></line>
+                            <line x1="3" y1="10" x2="21" y2="10" stroke-width="2"></line>
+                        </svg>
+                        <h2>SELECT WEEK</h2>
+                    </div>
+                </div>
+
+                <div class="week-buttons" id="week-buttons"></div>
+
+                <div class="phase-info">
+                    <div class="phase-label">PHASE</div>
+                    <div class="phase-title" id="phase-title">FULL INTEGRATION + SKILL MASTERY</div>
+                    <div class="phase-goal" id="phase-goal">Fluid tool transitions, rope flow competency, 100lb sandbag introduction, peak readiness</div>
+                </div>
+            </div>
+
+            <div class="day-selector">
+                <h2>SELECT DAY</h2>
+                <div class="day-grid" id="day-grid"></div>
+            </div>
+        </div>
+
+        <div id="workout-view" class="workout-view">
+            <button class="back-btn" id="back-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polyline points="15 18 9 12 15 6" stroke-width="2"></polyline>
+                </svg>
+                <span>Back to week overview</span>
+            </button>
+
+            <div class="workout-header">
+                <div class="workout-label" id="workout-label">WEEK 5 / DAY 1</div>
+                <h2 class="workout-title" id="workout-title">Power Integration</h2>
+            </div>
+
+            <div id="workout-blocks"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

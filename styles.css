@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #000;
+    color: #e5e5e5;
+    min-height: 100vh;
+}
+
+.header {
+    border-bottom: 1px solid #1f1f1f;
+    background: linear-gradient(to bottom, #0a0a0a, #000);
+    padding: 2rem 1.5rem;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.target-icon {
+    width: 32px;
+    height: 32px;
+    color: #dc2626;
+}
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.subtitle {
+    color: #737373;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.week-selector {
+    margin-bottom: 2rem;
+}
+
+.selector-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.selector-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.selector-title h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #d4d4d4;
+}
+
+.week-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.week-btn {
+    padding: 1rem;
+    border: 1px solid #1f1f1f;
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.week-btn:hover {
+    border-color: #404040;
+}
+
+.week-btn.active {
+    background-color: #dc2626;
+    border-color: #dc2626;
+    color: #fff;
+}
+
+.week-label {
+    font-size: 0.75rem;
+    color: #737373;
+    margin-bottom: 0.25rem;
+}
+
+.week-btn.active .week-label {
+    color: #fca5a5;
+}
+
+.week-num {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.phase-info {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+}
+
+.phase-label {
+    font-size: 0.75rem;
+    color: #dc2626;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+.phase-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.phase-goal {
+    font-size: 0.875rem;
+    color: #a3a3a3;
+}
+
+.day-selector h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #d4d4d4;
+    margin-bottom: 1rem;
+}
+
+.day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.day-card {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: left;
+}
+
+.day-card:hover {
+    border-color: #dc2626;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.day-num {
+    font-size: 0.75rem;
+    color: #737373;
+}
+
+.day-name {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.day-blocks {
+    font-size: 0.75rem;
+    color: #525252;
+    margin-top: 0.5rem;
+}
+
+.workout-view {
+    display: none;
+}
+
+.workout-view.active {
+    display: block;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    color: #737373;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+    transition: color 0.2s;
+}
+
+.back-btn:hover {
+    color: #d4d4d4;
+}
+
+.workout-header {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.workout-label {
+    font-size: 0.75rem;
+    color: #dc2626;
+    margin-bottom: 0.25rem;
+}
+
+.workout-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.block {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.block-header {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.block-header.wu {
+    background-color: #1e3a8a;
+    color: #93c5fd;
+}
+
+.block-header.fin {
+    background-color: #166534;
+    color: #86efac;
+}
+
+.block-header.work {
+    background-color: #7c2d12;
+    color: #fdba74;
+}
+
+.block-note {
+    font-size: 0.75rem;
+    color: #a3a3a3;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.exercise-list {
+    list-style: none;
+}
+
+.exercise-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 0.875rem;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
+
+.exercise-item:last-child {
+    border-bottom: none;
+}
+
+.exercise-item::before {
+    content: "- ";
+    color: #737373;
+}
+
+.hidden {
+    display: none;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+}

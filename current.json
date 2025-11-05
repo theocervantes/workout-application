@@ -1,0 +1,332 @@
+{
+  "program": {
+    "title": "STALLONE BRIDGE",
+    "subtitle": "6-WEEK MULTI-TOOL PREPARATION",
+    "weeks": {
+      "5": {
+        "phase": "FULL INTEGRATION + SKILL MASTERY",
+        "goal": "Fluid tool transitions, rope flow competency, 100lb sandbag introduction, peak readiness",
+        "days": [
+          {
+            "day": 1,
+            "name": "Power Integration",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :150@BW"
+                ]
+              },
+              {
+                "header": "5A90s",
+                "exercises": [
+                  "KB Snatch 5'@24"
+                ]
+              },
+              {
+                "header": "4B90s",
+                "exercises": [
+                  "Ring Dip 6-10@BW"
+                ]
+              },
+              {
+                "header": "4C90s",
+                "exercises": [
+                  "SB Shouldering 4'@75"
+                ]
+              },
+              {
+                "header": "FIN",
+                "label": "3D90s",
+                "exercises": [
+                  "Mace360 8'@10",
+                  "RopeFlow :60@BW",
+                  "Ring Support Hold :20@BW"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "name": "100lb Sandbag Debut",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :180@BW",
+                  "Hip Mobility :120@BW"
+                ]
+              },
+              {
+                "header": "5A120s",
+                "note": "Week 5 variant",
+                "exercises": [
+                  "SB Bear Hug Hold :15@100",
+                  "SB Clean + Squat 8@75"
+                ]
+              },
+              {
+                "header": "3B90s",
+                "exercises": [
+                  "KB Swing 15@24+24",
+                  "RopeFlow :45@BW",
+                  "KB Farmer Walk 60 steps@24+24"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "name": "Athletic Pull + Mace Flow",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :180@BW"
+                ]
+              },
+              {
+                "header": "5A90s",
+                "exercises": [
+                  "Ring Pull-up 6-10@BW"
+                ]
+              },
+              {
+                "header": "4B90s",
+                "exercises": [
+                  "KB Clean + High Pull 5+5'@24"
+                ]
+              },
+              {
+                "header": "4C90s",
+                "exercises": [
+                  "Mace Flow 5'@10: 360 → Pressout → Pendulum"
+                ]
+              },
+              {
+                "header": "FIN",
+                "label": "8D30s",
+                "exercises": [
+                  "RopeFlow :30@BW",
+                  "SB Bear Hug Hold :15@75",
+                  "Tyson Push-up 10@BW",
+                  "Rest :30"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "name": "Peak Integration Test",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "KB Halo 5'@8",
+                  "RopeFlow :120@BW",
+                  "Mace360 5'@10"
+                ]
+              },
+              {
+                "header": "3A120s",
+                "exercises": [
+                  "KB Snatch 6'@24",
+                  "Ring Dip 10@BW",
+                  "SB Shouldering 3'@75",
+                  "Mace360 10'@10"
+                ]
+              },
+              {
+                "header": "3B120s",
+                "exercises": [
+                  "KB Clean + Press 5@24+24",
+                  "SB Hold :20@100",
+                  "Ring Row 12@BW",
+                  "RopeFlow :60@BW"
+                ]
+              },
+              {
+                "header": "3C90s",
+                "exercises": [
+                  "Tyson Push-up 10@BW",
+                  "Mace Flow :45@10",
+                  "RopeFlow :90@BW",
+                  "Mixed Carry 40 steps"
+                ]
+              },
+              {
+                "header": "FIN",
+                "exercises": [
+                  "RopeFlow :180@BW",
+                  "Tool Flow :120@BW"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "6": {
+        "phase": "FULL INTEGRATION + SKILL MASTERY",
+        "goal": "Fluid tool transitions, rope flow competency, 100lb sandbag introduction, peak readiness",
+        "days": [
+          {
+            "day": 1,
+            "name": "Power Integration",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :150@BW"
+                ]
+              },
+              {
+                "header": "5A90s",
+                "exercises": [
+                  "KB Snatch 5'@24"
+                ]
+              },
+              {
+                "header": "4B90s",
+                "exercises": [
+                  "Ring Dip 6-10@BW"
+                ]
+              },
+              {
+                "header": "4C90s",
+                "exercises": [
+                  "SB Shouldering 4'@75"
+                ]
+              },
+              {
+                "header": "FIN",
+                "label": "3D90s",
+                "exercises": [
+                  "Mace360 8'@10",
+                  "RopeFlow :60@BW",
+                  "Ring Support Hold :20@BW"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "name": "100lb Sandbag Debut",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :180@BW",
+                  "Hip Mobility :120@BW"
+                ]
+              },
+              {
+                "header": "5A120s",
+                "note": "Week 6 variant",
+                "exercises": [
+                  "SB Bear Hug Squat 3@100",
+                  "SB Clean + Press 6@75"
+                ]
+              },
+              {
+                "header": "3B90s",
+                "exercises": [
+                  "KB Swing 15@24+24",
+                  "RopeFlow :45@BW",
+                  "KB Farmer Walk 60 steps@24+24"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "name": "Athletic Pull + Mace Flow",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "RopeFlow :180@BW"
+                ]
+              },
+              {
+                "header": "5A90s",
+                "exercises": [
+                  "Ring Pull-up 6-10@BW"
+                ]
+              },
+              {
+                "header": "4B90s",
+                "exercises": [
+                  "KB Clean + High Pull 5+5'@24"
+                ]
+              },
+              {
+                "header": "4C90s",
+                "exercises": [
+                  "Mace Flow 5'@10: 360 → Pressout → Pendulum"
+                ]
+              },
+              {
+                "header": "FIN",
+                "label": "8D30s",
+                "exercises": [
+                  "RopeFlow :30@BW",
+                  "SB Bear Hug Hold :15@75",
+                  "Tyson Push-up 10@BW",
+                  "Rest :30"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "name": "Peak Integration Test",
+            "blocks": [
+              {
+                "header": "WU",
+                "exercises": [
+                  "KB Halo 5'@8",
+                  "RopeFlow :120@BW",
+                  "Mace360 5'@10"
+                ]
+              },
+              {
+                "header": "3A120s",
+                "exercises": [
+                  "KB Snatch 6'@24",
+                  "Ring Dip 10@BW",
+                  "SB Shouldering 3'@75",
+                  "Mace360 10'@10"
+                ]
+              },
+              {
+                "header": "3B120s",
+                "exercises": [
+                  "KB Clean + Press 5@24+24",
+                  "SB Bear Hug Squat 3@100",
+                  "Ring Row 12@BW",
+                  "RopeFlow :60@BW"
+                ]
+              },
+              {
+                "header": "3C90s",
+                "exercises": [
+                  "Tyson Push-up 10@BW",
+                  "Mace Flow :45@10",
+                  "RopeFlow :90@BW",
+                  "Mixed Carry 40 steps"
+                ]
+              },
+              {
+                "header": "FIN",
+                "exercises": [
+                  "RopeFlow :180@BW",
+                  "Tool Flow :120@BW"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
